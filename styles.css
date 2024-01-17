@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('background-image.jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.clock-container {
+    /* background-color: rgba(255, 255, 255, 0.8); Add some transparency to make the clock readable */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(102, 65, 65, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.time{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+#time {
+    font-size: 10em;
+    color: #f6b9b9;
+}
